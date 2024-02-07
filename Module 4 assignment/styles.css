@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+p {
+    padding: 5px 20px;
+}
+.teamdisplay {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.larry {
+    background-color: cadetblue;
+    color: rgb(150, 40, 0);
+    
+    width: 300px;
+}
+.tom {
+    background-color: burlywood;
+    width: 300px;
+    color: rgb(114, 16, 16);
+}
+.rebecca {
+    background-color: black;
+    color: azure;
+    width: 300px;
+}
+.betty {
+    background-color: lightgray;
+    color: darkslategray;
+    width: 300px;
+}
+.barrack {
+    background-color: bisque;
+    color: rgb(0, 93, 155);
+    width: 300px;
+}
+img {
+    max-height: 300px;
+    padding: 5px 20px;
+}
+.p1 {
+    font-size: larger;
+    font-weight: 700; 
+}
+.p2 {
+    font-size: large;
+    font-weight: 500;
+}
+.media-container {
+    display: grid;
+    grid-template-columns: auto auto;    
+}
+.container {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 90px;
+}
+.product-image {
+    max-width: 80px;
+}
